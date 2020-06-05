@@ -8,7 +8,7 @@ package Role::TinyCommons::TermAttr::Software;
 use Role::Tiny;
 
 my $dt_cache;
-sub termapp_software_info {
+sub termattr_software_info {
     my $self = shift;
 
     if (!$dt_cache) {
